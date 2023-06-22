@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="icon/site.webmanifest">
+    <script src="https://kit.fontawesome.com/3c2707063d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <section id="content">
+        <div class="popup">
+            <div class="popup-box">
+                <div class="content">
+                    <div id="popup">Please Provide A Title or Description</div>
+                    <header>
+                        <h2>Add A New Note</h2><i class="fa-solid fa-xmark"></i>
+                    </header>
+                    <main>
+                        <div class="title-row">
+                            <h2>Title</h2>
+                            <input type="text" placeholder="Enter your Note title Here">
+                        </div>
+                        <div class="description-row">
+                            <h2>Description</h2>
+                            <textarea id="description-text" placeholder="Enter your Note Description Here"></textarea>
+                        </div>
+                        <button>Add Note</button>
+                    </main>
+                </div>
+            </div>
+        </div>
+        <div class="noteApp">
+            <div class="wrapper">
+                <div class="add-note">
+                    <div class="circle">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <span>Add New Note</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
